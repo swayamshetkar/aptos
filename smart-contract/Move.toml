@@ -1,0 +1,9 @@
+[package]
+name = "AdMarket"
+version = "1.0.0"
+
+[addresses]
+admarket = "0xYOUR_ADDRESS"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
